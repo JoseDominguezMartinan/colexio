@@ -26,7 +26,11 @@ public class Colexio
         System.out.println(ens001.toString());
         System.out.println(estin001.toString());
         
+        est001.setNivel("1ºASIR");
+        ens001.setMateria("Linguaxes de marcas");
         
+         System.out.println(est001.toString());
+        System.out.println(ens001.toString());
     }
     
 }
