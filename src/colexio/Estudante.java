@@ -11,9 +11,10 @@ package colexio;
  */
 public class Estudante extends Persoa
 {
+    // crear clase estudante que ademais dos atributos herdados por persoa teña os atributos co nome do colexio e o nivel no que estudan 
     public String nomeCole;
     public String nivel;
-
+    // crear gettes settes e toString 
     public Estudante(String nomeCole,String nivel,String nome,String direccion)
     {
         super(nome,direccion);

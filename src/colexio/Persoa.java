@@ -11,8 +11,11 @@ package colexio;
  */
 public class Persoa
 {
+    // crear clase persoa cos atributos nome e dirección
     public String nome;
     public String direccion;
+    
+    // crear constructores, settes gettes e toString 
 
     public Persoa(String nome,String direccion)
     {

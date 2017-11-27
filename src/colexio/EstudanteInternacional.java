@@ -11,8 +11,10 @@ package colexio;
  */
 public class EstudanteInternacional extends Estudante
 {
+    
+    // crear clase estudante internacional que ademais dos atributos herdados por estudante, e indirectamente por peroa, teña o atributo do pais de procedencia 
     public String pais;
-
+    // crear gettes settes e toString 
     public EstudanteInternacional(String pais,String nomeCole,String nivel,String nome,String direccion)
     {
         super(nomeCole,nivel,nome,direccion);

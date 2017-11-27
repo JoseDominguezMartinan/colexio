@@ -11,7 +11,10 @@ package colexio;
  */
 public class Ensinante extends Persoa
 {
+    // crear unha clase estudante que ademais dos atributos herdados pola clase persoa teña o atributo materia 
     public String materia;
+    
+    // crear constructores, settes gettes e toString
 
     public Ensinante(String materia,String nome,String direccion)
     {
